@@ -7,7 +7,7 @@ CreateThread(function()
     while true do
         Wait(3600000)
         dailyWithdraws = {}
-        TriggerClientEvent('QBCore:Notify', -1, "Daily Withdraw Limit Reset", "success")
+        --TriggerClientEvent('QBCore:Notify', -1, "Daily Withdraw Limit Reset", "success")
     end
 end)
 
